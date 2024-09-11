@@ -1,0 +1,19 @@
+
+h
+8app/src/main/java/com/maranguit/todolist/MainActivity.kt,6\e\6e3eb0d090b1226c36504bf002c3df31b55a1af1
+g
+7app/src/main/java/com/maranguit/todolist/TaskAdapter.kt,d\5\d50d0a0b835113bcbe471d2086332d5b0e7f4731
+`
+0app/src/main/java/com/maranguit/todolist/Task.kt,a\e\ae0f352d38296bddede882c6ddedd0b72eb59144
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+A
+gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
+I
+gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
