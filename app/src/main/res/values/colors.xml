@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPressed">#FF5722</color> <!-- Example: Orange-Red for pressed state -->
+    <color name="colorDefault">#373636</color> <!-- Example: White for default state -->
+    <color name="colorPrimary">#2196F3</color> <!-- Example: Blue for primary stroke -->
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#F00</color>
+    <color name="almostBlack">#222</color>
+    <color name="orange">#FF8c00</color>
+</resources>
