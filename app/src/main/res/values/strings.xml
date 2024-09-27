@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="go">Another Fragment</string>
+    <string name="show">Show Dialog</string>
+    <string name="exit">Exit</string>
+    <string name="more">More</string>
+</resources>
