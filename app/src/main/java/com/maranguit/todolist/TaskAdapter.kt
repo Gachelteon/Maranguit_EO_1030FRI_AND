@@ -1,6 +1,7 @@
 package com.maranguit.todolist
 
 import android.content.Context
+import android.graphics.Paint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -36,18 +37,30 @@ class TaskAdapter(private val context: Context, private val tasks: List<Task>) :
 
         val task = getItem(position) as Task
 
+        // Set checkbox and text view states
         viewHolder.checkBox.isChecked = task.isCompleted
         viewHolder.textView.text = task.description
+
+        // Apply strike-through when the task is completed
+        if (task.isCompleted) {
+            viewHolder.textView.paintFlags = viewHolder.textView.paintFlags or Paint.STRIKE_THRU_TEXT_FLAG
+        } else {
+            viewHolder.textView.paintFlags = viewHolder.textView.paintFlags and Paint.STRIKE_THRU_TEXT_FLAG.inv()
+        }
+
+        // Set image if available
         task.imageUri?.let { uri ->
             viewHolder.imageView.setImageURI(uri)
         } ?: run {
             viewHolder.imageView.setImageResource(R.drawable.ic_task_image)
         }
 
+        // Prevent default checkbox behavior to avoid unwanted callbacks
         viewHolder.checkBox.setOnCheckedChangeListener(null)
         viewHolder.checkBox.isFocusable = false
         viewHolder.checkBox.isClickable = false
 
+        // Disable click and focus states on the list item
         view.isClickable = false
         view.isFocusable = false
 
