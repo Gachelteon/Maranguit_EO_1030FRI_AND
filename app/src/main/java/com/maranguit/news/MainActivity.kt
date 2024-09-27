@@ -27,20 +27,38 @@ class MainActivity : AppCompatActivity(), HeadlineListFragment.OnHeadlineSelecte
     private fun setupFragments() {
         val isLandscape = findViewById<FrameLayout>(R.id.fragment_headline_list) != null
 
+        // Remove fragments that are not needed in the current orientation
+        if (!isLandscape) {
+            // Portrait mode: Ensure no landscape fragments are restored
+            supportFragmentManager.findFragmentById(R.id.fragment_headline_list)?.let {
+                supportFragmentManager.beginTransaction().remove(it).commitNow()
+            }
+            supportFragmentManager.findFragmentById(R.id.fragment_news_content)?.let {
+                supportFragmentManager.beginTransaction().remove(it).commitNow()
+            }
+        } else {
+            // Landscape mode: Ensure no portrait-only fragments are restored
+            supportFragmentManager.findFragmentById(R.id.fragment_container)?.let {
+                supportFragmentManager.beginTransaction().remove(it).commitNow()
+            }
+        }
+
+        // Add fragments based on the current orientation
         if (isLandscape) {
-            // Landscape mode
+            // Landscape mode: Show both the list and the content fragments
             if (supportFragmentManager.findFragmentById(R.id.fragment_headline_list) == null) {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_headline_list, HeadlineListFragment())
                     .commit()
             }
+
             if (supportFragmentManager.findFragmentById(R.id.fragment_news_content) == null) {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_news_content, NewsContentFragment())
                     .commit()
             }
         } else {
-            // Portrait mode
+            // Portrait mode: Show only the list fragment initially
             if (supportFragmentManager.findFragmentById(R.id.fragment_container) == null) {
                 supportFragmentManager.beginTransaction()
                     .replace(R.id.fragment_container, HeadlineListFragment())
@@ -53,6 +71,8 @@ class MainActivity : AppCompatActivity(), HeadlineListFragment.OnHeadlineSelecte
             onHeadlineSelected(currentHeadlinePosition)
         }
     }
+
+
 
     override fun onHeadlineSelected(position: Int) {
         currentHeadlinePosition = position
