@@ -26,7 +26,7 @@
             android:lines="2"
             android:maxLines="2"
             android:textAlignment="textEnd"
-            android:textSize="36sp"
+            android:textSize="28sp"
             app:layout_constraintBottom_toTopOf="@id/resultText"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
