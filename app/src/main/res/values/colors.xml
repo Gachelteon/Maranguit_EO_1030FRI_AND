@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#E1DEDE</color>
+    <color name="colorPressed">#FF5722</color>
+    <color name="colorDefault">#373636</color>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="red">#F00</color>
+    <color name="almostBlack">#222</color>
+    <color name="orange">#FF8c00</color>
+    <color name="color_unselected">#747272</color>
+    <color name="color_selected">#41A4F3</color>
+</resources>

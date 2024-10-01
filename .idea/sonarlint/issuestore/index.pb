@@ -1,0 +1,21 @@
+
+p
+@app/src/main/java/com/maranguit/bottomnavigation/MainActivity.kt,2\a\2a2370bab3f5489c8ffff61619a9ab3da69067d4
+n
+>app/src/main/java/com/maranguit/bottomnavigation/Calculator.kt,c\3\c3430c05e8bbbc65735aef88be39c1f314cc3bd8
+l
+<app/src/main/java/com/maranguit/bottomnavigation/ToDoList.kt,b\0\b01114bc700d4c04ed433b1bd931ab07669da095
+k
+;app/src/main/java/com/maranguit/bottomnavigation/Profile.kt,b\d\bd6b0990bcd4129f441eae501ddbcd1921abfb1a
+D
+app/build.gradle.kts,d\2\d2a4383452aad84a18429a5844d31330a012a9e6
+j
+:app/src/main/java/com/maranguit/bottomnavigation/TDList.kt,a\0\a07c2c0f7884b28ffbf6f88eaa21f8f6be40c517
+q
+Aapp/src/main/java/com/maranguit/bottomnavigation/TDListAdapter.kt,5\7\577740913f31203dd88b6b68c619365919e21619
+I
+gradle/libs.versions.toml,d\7\d7595319a0658be6f1ed500ad590d42e4b28bc4f
+@
+build.gradle.kts,d\b\dbcff70658daf80b53ce624f6adcaa529df5ed8d
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e

@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Bottom Navigation</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="result_default">0.00</string>
+    <string name="input_default">0</string>
+    <string name="button_1">1</string>
+    <string name="button_2">2</string>
+    <string name="button_3">3</string>
+    <string name="button_4">4</string>
+    <string name="button_5">5</string>
+    <string name="button_6">6</string>
+    <string name="button_7">7</string>
+    <string name="button_8">8</string>
+    <string name="button_9">9</string>
+    <string name="button_0">0</string>
+    <string name="button_clear">C</string>
+    <string name="button_delete">⌫</string>
+    <string name="button_add">+</string>
+    <string name="button_subtract">-</string>
+    <string name="button_multiply">×</string>
+    <string name="button_divide">÷</string>
+    <string name="button_equals">=</string>
+    <string name="p_pic">Profile Picture</string>
+    <string name="e_image">Edit Image</string>
+    <string name="full_name">Full Name</string>
+    <string name="email">Email</string>
+    <string name="p_number">Phone Number</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="reading">Reading</string>
+    <string name="traveling">Traveling</string>
+    <string name="gaming">Gaming</string>
+    <string name="save">Save</string>
+
+
+</resources>
