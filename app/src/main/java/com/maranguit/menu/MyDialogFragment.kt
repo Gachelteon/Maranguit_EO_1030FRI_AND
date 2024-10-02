@@ -12,8 +12,8 @@ class MyDialogFragment : DialogFragment() {
             builder.setTitle("Dialog Title")
                 .setMessage("This is the message in the dialog.")
 
-                .setNegativeButton("Close") { _, _ ->
-                    dialog?.dismiss()
+                .setNegativeButton("Close App") { _, _ ->
+                    (activity as? MainActivity)?.performThirdMenuAction()
                 }
                 .setPositiveButton("Go back to Default") { _, _ ->
                     (activity as? MainActivity)?.goToDefaultFragment()
